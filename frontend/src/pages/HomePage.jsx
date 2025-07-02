@@ -13,6 +13,7 @@ const HomePage = () => {
         <div className="bg-base-100 rounded-lg shadow-cl w-full h-[calc(100vh-8rem)]">
           <div className="flex h-full rounded-lg overflow-hidden">
             <Sidebar />
+            <div className="w-1 h-screen bg-base-300"></div>
 
             {!selectedUser ? <NoChatSelected /> : <ChatContainer />}
           </div>

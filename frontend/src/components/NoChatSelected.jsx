@@ -9,9 +9,9 @@ const NoChatSelected = () => {
           <div className="relative">
             <div
               className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center
-             justify-center animate-bounce"
+             justify-center animate-pulse"
             >
-              <MessageSquare className="w-8 h-8 text-primary " />
+              <MessageSquare className="w-8 h-8 text-primary animate-pulse" />
             </div>
           </div>
         </div>

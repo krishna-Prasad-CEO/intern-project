@@ -1,3 +1,5 @@
+import { AudioLines, AudioWaveform } from "lucide-react";
+
 const AuthImagePattern = ({ title, subtitle }) => {
   return (
     <div>
