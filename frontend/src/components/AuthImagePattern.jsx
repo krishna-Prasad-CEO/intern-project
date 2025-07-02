@@ -1,19 +1,142 @@
 const AuthImagePattern = ({ title, subtitle }) => {
   return (
-    <div className="hidden lg:flex items-center justify-center bg-base-200 p-12">
-      <div className="max-w-md text-center">
-        <div className="grid grid-cols-3 gap-3 mb-8">
-          {[...Array(9)].map((_, i) => (
-            <div
-              key={i}
-              className={`aspect-square rounded-2xl bg-primary/10 ${
-                i % 2 === 0 ? "animate-pulse" : ""
-              }`}
-            />
-          ))}
+    <div>
+      <div className="flex min-w-full flex-col justify-center items-center sm:p-12">
+        <div className="hidden lg:grid grid-cols-3 gap-6">
+          <div
+            role="status"
+            className="max-w-md p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded-sm shadow-sm animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <span className="sr-only">Loading...</span>
+          </div>
+
+          <div
+            role="status"
+            className="max-w-md p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded-sm shadow-sm animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <span className="sr-only">Loading...</span>
+          </div>
+
+          <div
+            role="status"
+            className="max-w-md p-4 space-y-4 border border-gray-200 divide-y divide-gray-200 rounded-sm shadow-sm animate-pulse dark:divide-gray-700 md:p-6 dark:border-gray-700"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <div className="flex items-center justify-between pt-4">
+              <div>
+                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-600 w-24 mb-2.5"></div>
+                <div className="w-32 h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+              </div>
+              <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-12"></div>
+            </div>
+            <span className="sr-only">Loading...</span>
+          </div>
         </div>
-        <h2 className="text-2xl font-bold mb-4">{title}</h2>
-        <p className="text-base-content/60">{subtitle}</p>
+        <div className="text-center mt-6">
+          <h2 className="text-2xl font-bold">Join Our Community</h2>
+          <div className="flex gap-x-3 mt-4 font-light text-sm">
+            <AudioWaveform className="text-2xl  font-light" />
+            Learn, Chat, Teach, Repeat
+            <AudioLines className="text-2xl font-extrabold" />
+          </div>
+        </div>
       </div>
     </div>
   );
